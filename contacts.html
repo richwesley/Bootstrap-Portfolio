@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About Me</title>
+    <title>Untitled Document</title>
     <!-- Bootstrap -->
 	<link href="assets/css/bootstrap.css" rel="stylesheet">
 	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
@@ -22,7 +22,7 @@
 
 	<!-- Include all compiled plugins (below), or include individual files as needed --> 
 	<script src="assets/js/bootstrap.js"></script>
-  <div class="container">
+	 <div class="container">
   
 		<header class="row">
 		
@@ -41,14 +41,29 @@
 		<section class="row">
 			<article class="col-md-8">
 			
-				<h2>About Me</h2>
- 						 
-	 	 		<img src="assets/images/profile_pic.jpg" width="150" height="113" alt="" id="portpic"/>
-	 	 		
-				<p>
-  				My first experience with coding was back in 1977 when our high school received a teletype terminal which was connected to the local college mainframe.  We stored our BASIC program on paper tape.  In college, I learned Fortran on a card punch batch processing system and COBOL which had to be compiled before it could be run.  These earlier programming languages were quite different than today’s object oriented languages such a Java and C+.  Now it is on to the languages of the NET, HTML, CSS, JavaScript, PHP along with the vast libraries of code sprung from them.
-				</p>
-  		
+				<h2>Contact</h2>
+				
+			
+				<form>
+ 				<div>
+ 					<h4>Name</h4>
+  					<input type="text" placeholder="John Smith" autofocus required />
+  				</div>
+				
+				<div>
+					<h4>Email</h4>
+  					<input type="email" placeholder="JSmith@example.com" required />
+  				</div>
+  				
+  				<div>
+  					<h4>Message</h4>
+  					<textarea cols="50" rows="6" name="comment"></textarea>
+  				</div>
+  				
+  				<div>
+  					<input type="submit" value="Submit" id="button">
+  				</div>
+  			</form>
  			 </article>
  	 
 		
@@ -80,6 +95,5 @@
  	</footer>
   			
 	</div>
-	
   </body>
 </html>
