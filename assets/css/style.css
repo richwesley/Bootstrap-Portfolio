@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+
+
+#portpic {
+	margin-left: 48px;
+	float: left;
+	margin-right: 30px;
+
+}
+
+h1 {
+	background-color: #4AAAA5;
+	color: white;
+	text-align: center;
+	max-width: 300px;
+	font-size: 3em;
+	
+}
+
+h2  {
+	color: #4AAAA5;
+	font-size: 2.5em;
+	border-bottom: 3px solid #ddd;
+}
+
+h3  {
+	color: #4AAAA5;
+	font-size: 2em;
+	text-align: left;
+}
+
+#socialIcons {
+	
+}
+
+footer {
+	text-align: center;
+	background-color: #666666;
+	color: white;
+	border-top: 8px solid #4aaaa5;
+}
+
+a {
+	margin-left: 30px;
+
+}
+
+a:link {
+	text-decoration: none;
+	color: #777777;
+}
+
+a:hover {
+	color: #4aaaa5;
+}
+
+a:visited {
+	color: #777777;
+}
+
+a:active  {
+	color: #777777;
+	font-weight: bold;
+	background-color: #4aaaa5;
+}
+nav {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 18px;
+}
